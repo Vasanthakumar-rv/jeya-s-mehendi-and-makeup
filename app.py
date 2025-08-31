@@ -2,10 +2,11 @@ from flask import Flask,render_template,jsonify
 
 app = Flask(__name__)
 
+
 JOBS=[
   {
     'id':1,
-    'title':'Data Analyst',
+    'title':'Make-up Artist',
     'location':'Bengaluru,India',
     'salary':'Rs.10,00,000'
   },
