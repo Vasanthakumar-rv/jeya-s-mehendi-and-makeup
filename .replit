@@ -14,7 +14,7 @@ mode = "sequential"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "python -m http.server 8000"
+args = "python app.py"
 
 [[ports]]
 localPort = 5000
